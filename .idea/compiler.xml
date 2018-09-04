@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="onewan_Common" />
+        <module name="onewan_Domain" />
+        <module name="onewan_LoginController" />
+        <module name="onewan_Mapper" />
+        <module name="onewan_SSOService" />
+        <module name="onewan_SSOServiceProvider" />
+        <module name="onewan_UserService" />
+        <module name="onewan_Web" />
+        <module name="onewan_WebController" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
