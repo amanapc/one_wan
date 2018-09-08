@@ -11,5 +11,19 @@
 
     <artifactId>onewan_UserService</artifactId>
 
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.onewan</groupId>
+            <artifactId>onewan_Common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.onewan</groupId>
+            <artifactId>onewan_Domain</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
 
 </project>

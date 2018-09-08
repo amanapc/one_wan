@@ -13,6 +13,7 @@
         <module name="onewan_SSOService" />
         <module name="onewan_SSOServiceProvider" />
         <module name="onewan_UserService" />
+        <module name="onewan_UserServiceProvider" />
         <module name="onewan_Web" />
         <module name="onewan_WebController" />
       </profile>

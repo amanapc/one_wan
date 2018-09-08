@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="jedisUtil" class="cn.onewan.common.redis.JedisUtil" scope="prototype">
+        <constructor-arg name="host" value="${redisLocalHost}"></constructor-arg>
+        <constructor-arg name="port" value="${redisLocalPort}"></constructor-arg>
+        <constructor-arg name="password" value="${redisLocalPass}"></constructor-arg>
+    </bean>
+</beans>

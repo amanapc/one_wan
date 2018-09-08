@@ -11,5 +11,21 @@
 
     <artifactId>onewan_SSOServiceProvider</artifactId>
 
+    <packaging>war</packaging>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.onewan</groupId>
+            <artifactId>onewan_SSOService</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.onewan</groupId>
+            <artifactId>onewan_Mapper</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

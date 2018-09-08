@@ -15,9 +15,9 @@
         <module>onewan_WebController</module>
         <module>onewan_LoginController</module>
         <module>onewan_UserService</module>
-        <module>SSOService</module>
         <module>onewan_SSOService</module>
         <module>onewan_SSOServiceProvider</module>
+        <module>onewan_UserServiceProvider</module>
     </modules>
     <packaging>pom</packaging>
 
